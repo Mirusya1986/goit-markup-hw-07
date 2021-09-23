@@ -987,7 +987,7 @@ ul {
   border-color: var(--accent-color);
 }
 
-.checkbox:checked + .check-label .icon-checkbox {
+:checked + .check-label .icon-checkbox {
   background-color: var(--accent-color);
   border: none;
 }
