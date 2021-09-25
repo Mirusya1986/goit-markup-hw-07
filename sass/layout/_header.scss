@@ -12,20 +12,20 @@
     margin: auto;
   }
   .header-logo {
+    margin-right: 93px;
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     color: var(--black-text-color);
-    margin-right: 93px;
   }
-  .site-nav_list {
+  .site-nav__list {
     display: flex;
   }
   .accent {
     color: var(--accent-color);
   }
-  .site-nav_item:not(:last-child) {
+  .site-nav__item:not(:last-child) {
     margin-right: 50px;
   }
   .nav-link {
@@ -51,7 +51,7 @@
     display: flex;
     margin-left: auto;
   }
-  .contact-link {
+  .contact-list__link {
     display: flex;
     align-items: center;
     padding-top: 32px;
@@ -68,7 +68,7 @@
     color: var(--accent-color);
   }
   }
-  .contact-item:not(:last-child) {
+  .contact-list__item:not(:last-child) {
     margin-right: 50px;
   }
   
@@ -87,7 +87,7 @@
     }
   }
   
-  .contact-icon {
+  .contact-list__icon {
     margin-right: 10px;
     fill: var(--text-color);
     .contact-link:hover &,

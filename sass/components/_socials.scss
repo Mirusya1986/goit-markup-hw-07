@@ -4,14 +4,14 @@
     margin-top: 16px;
     align-items: center;
   }
-  .socials-item {
+  .socials-list__item {
     width: 44px;
     height: 44px;
     &:not(:last-child) {
       margin-right: 10px;
       }
   }
-  .socials-list-link {
+  .socials-list__link {
     width: 44px;
     height: 44px; 
     display: flex;
@@ -28,7 +28,7 @@
     }
   }
   
-  .socials-icon {
+  .socials-list__icon {
     width: 20px;
     height: 20px;
     /* background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1); */

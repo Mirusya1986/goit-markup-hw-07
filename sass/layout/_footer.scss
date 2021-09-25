@@ -25,13 +25,14 @@
     line-height: 1.71;
     color: var(--white-text-color);
   }
-  .address-item:not(:last-child) {
+  .contact-info__item:not(:last-child) {
     margin-bottom: 9px;
   }
-  .address-info {
+  .contact-info__text {
     color: var(--white-text-color);
+    font-style: normal;
   }
-  .contact-info {
+  .contact-info__link {
     font-size: 14px;
     line-height: 1.71;
     font-style: normal;
@@ -59,15 +60,15 @@
     color: var(--primary-background-color);
     margin-bottom: 20px;
   }
-  .footer-item {
+  .footer-list__item {
     margin-right: 10px;
   }
-  .footer-icon {
+  .footer-list__icon {
     width: 20px;
     height: 20px;
     fill: #ffffff;
   }
-  .footer-link {
+  .footer-list__link {
     display: flex;
     justify-content: center;
     align-items: center;

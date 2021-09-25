@@ -30,12 +30,11 @@
   .hero-button {
     text-align: center;
     padding: 10px 32px;
-    border-radius: 4px;
+    font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
     background: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
     letter-spacing: 0.06em;
     cursor: pointer;
     color: var(--white-text-color);

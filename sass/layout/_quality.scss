@@ -10,7 +10,7 @@
     margin-left: -30px;
     margin-top: -30px;
   }
-  .quality-item {
+  .quality-list__item {
     flex-basis: calc((100% - 120px) / 4);
     margin-left: 30px;
     margin-top: 30px;
@@ -23,7 +23,7 @@
     text-transform: uppercase;
     color: var(--title-color);
   }
-  .quality-icon {
+  .quality-list__icon {
     width: 70px;
     height: 70px;
   }
