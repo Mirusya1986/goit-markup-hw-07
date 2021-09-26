@@ -25,9 +25,11 @@
   .accent {
     color: var(--accent-color);
   }
-  .site-nav__item:not(:last-child) {
+  .site-nav__item {
+    &:not(:last-child) {
     margin-right: 50px;
   }
+}
   .nav-link {
     position: relative;
     display: inline-flex;
@@ -46,7 +48,6 @@
     color: var(--accent-color);
   }
   }
-  
   .contact-list {
     display: flex;
     margin-left: auto;
@@ -68,11 +69,11 @@
     color: var(--accent-color);
   }
   }
-  .contact-list__item:not(:last-child) {
+  .contact-list__item {
+    &:not(:last-child) {
     margin-right: 50px;
   }
-  
- 
+}
   .active {
     color: var(--accent-color);
     &::after {
@@ -86,7 +87,6 @@
       border-radius: 4px;
     }
   }
-  
   .contact-list__icon {
     margin-right: 10px;
     fill: var(--text-color);
